@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap");
+
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap");
+
+      .manrope {
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .montagu-slab {
+        font-family: "Montagu Slab", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body class="bg-black text-white m-6 md:m-24">
+    <header>
+      <nav class="flex justify-between items-center">
+        <h1 class="text-2xl cursor-pointer">LOGO</h1>
+        <svg
+          viewBox="0 0 48 48"
+          xmlns="http://www.w3.org/2000/svg"
+          height="1.5em"
+          width="1.5em"
+          class="block cursor-pointer lg:hidden"
+        >
+          <path
+            fill="lime"
+            d="M7.5 36q-.65 0-1.075-.425Q6 35.15 6 34.5q0-.65.425-1.075Q6.85 33 7.5 33h33q.65 0 1.075.425Q42 33.85 42 34.5q0 .65-.425 1.075Q41.15 36 40.5 36Zm0-10.5q-.65 0-1.075-.425Q6 24.65 6 24q0-.65.425-1.075Q6.85 22.5 7.5 22.5h33q.65 0 1.075.425Q42 23.35 42 24q0 .65-.425 1.075-.425.425-1.075.425Zm0-10.5q-.65 0-1.075-.425Q6 14.15 6 13.5q0-.65.425-1.075Q6.85 12 7.5 12h33q.65 0 1.075.425Q42 12.85 42 13.5q0 .65-.425 1.075Q41.15 15 40.5 15Z"
+          />
+        </svg>
+        <ul class="hidden lg:flex justify-evenly items-center gap-8 text-base font-normal">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About me</a></li>
+          <li><a href="#"> Projects</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><button class="bg-[#E6AA32] rounded-full text-black text-base w-40 h-14">Download CV</button></li>
+        </ul>
+      </nav>
+      <section class="my-10 md:grid
+        grid-cols-12">
+        <aside class="mb-5 md:col-span-6 flex justify-center items-center">
+          <div>
+            <img src="my-photo.png" alt="My photo" />
+          </div>
+        </aside>
+        <aside class="space-y-5 md:col-span-6 flex flex-col justify-center">
+          <h1 class="text-[#797C86] text-base manrope">Web developer</h1>
+          <h1 class="text-2xl montagu-slab uppercase md:text-4xl">
+            Hi, I am
+            <span class="text-[#E6AA32]">Farhan Tanvir</span>
+          </h1>
+          <p class="text-[#797C86] text-base manrope md:text-lg ">
+            As a web developer with four years of experience, I specialize in
+            creating visually appealing and uelser-friendly websites. My
+            experties includes responsive design, UI/UX principals and
+            collaborating with clients to bring thier vision to life.
+          </p>
+          <div class="flex flex-col gap-2 w-40 h-32 md:flex-row md:w-96">
+            <button
+              class="bg-[#E6AA32] rounded-full text-black text-base w-40 h-14"
+            >
+              Lets connect
+            </button>
+            <button
+              class="rounded-full text-white text-base w-40 h-14"
+            >
+              View portfolios
+            </button>
+          </div>
+        </aside>
+      </section>
+    </header>
+
+    <main class="space-y-16">
+      <section class="space-y-14">
+        <div class="text-center">
+          <h1 class="text-[#797C86] text-base font-[600] manrope uppercase">
+            specialities
+          </h1>
+          <h1 class="uppercase text-xl lg:text-4xl">my specialities</h1>
+          <p class="text-[#797C86] text-base manrope font-[400]">
+            As a web developer with four years of experience, I specialize in
+            creating visually appealing and uelser-friendly websites. My
+            experties includes responsive design.
+          </p>
+        </div>
+        <div
+          class="grid-box grid grid-cols-12 gap-x-5 gap-y-10 justify-center items-end text-center manrope text-sm text-[#E6E6E682]"
+        >
+          <div
+            class="col-span-6 md:col-span-4 lg:col-span-3 flex flex-col gap-y-5 items-center bg-gradient-to-l from-[#0E0E10] to-[#17171A3B]"
+          >
+            <img src="font-end.png" alt="Font End" class="w-16 h-16" />
+            <h1 class="text-base text-[#E6E6E6] font-bold lg:text-lg">
+              Font-End development
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Accusantium dolor molestias quia natus, quae aliquid ex,
+              reprehenderit officia quo.
+            </p>
+          </div>
+          <div
+            class="col-span-6 md:col-span-4 lg:col-span-3 flex flex-col gap-y-5 items-center bg-gradient-to-l from-[#0E0E10] to-[#17171A3B]"
+          >
+            <img src="back-end.png" alt="back end" class="w-16 h-16" />
+            <h1 class="text-base text-[#E6E6E6] font-bold lg:text-lg">
+              Back-End development
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+              doloribus modi, maxime dolor aliquam, recusandae culpa facilis
+              magnam. Enim.
+            </p>
+          </div>
+          <div
+            class="col-span-6 md:col-span-4 lg:col-span-3 flex flex-col gap-y-5 items-center bg-gradient-to-l from-[#0E0E10] to-[#17171A3B]"
+          >
+            <img src="full-stack.png" alt="Full stack" class="w-16 h-16" />
+            <h1 class="text-base text-[#E6E6E6] font-bold lg:text-lg">
+              Full-Stack Development
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+              doloribus modi, maxime dolor aliquam, recusandae culpa facilis
+              magnam. Enim.
+            </p>
+          </div>
+          <div
+            class="col-span-6 md:col-span-4 lg:col-span-3 flex flex-col gap-y-5 items-center
+            bg-gradient-to-l from-[#0E0E10] to-[#17171A3B]"
+          >
+            <img src="security.png" alt="Web security" class="w-16 h-16" />
+            <h1 class="text-base text-[#E6E6E6] font-bold lg:text-lg">
+              web application security
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+              doloribus modi, maxime dolor aliquam, recusandae culpa facilis
+              magnam. Enim.
+            </p>
+          </div>
+          <div
+            class="col-span-6 md:col-span-4 lg:col-span-3 flex flex-col gap-y-5 items-center bg-gradient-to-l from-[#0E0E10] to-[#17171A3B]"
+          >
+            <img
+              src="e-commerce.png"
+              alt="E commerce image"
+              class="w-16 h-16"
+            />
+            <h1 class="text-base text-[#E6E6E6] font-bold lg:text-lg">
+              E-Commerce Development
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+              doloribus modi, maxime dolor aliquam, recusandae culpa facilis
+              magnam. Enim.
+            </p>
+          </div>
+          <div
+            class="col-span-6 md:col-span-4 lg:col-span-3 flex flex-col gap-y-5 items-center bg-gradient-to-l from-[#0E0E10] to-[#17171A3B]"
+          >
+            <img src="cloud-image.png" alt="Cloud image" class="w-16 h-16" />
+            <h1 class="text-base text-[#E6E6E6] font-bold lg:text-lg">
+              Cloud-Based Development
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Asperiores autem officia, et beatae fuga ea expedita rerum
+              molestias illum.
+            </p>
+          </div>
+          <div
+            class="col-span-6 md:col-span-4 lg:col-span-3 flex flex-col gap-y-5 items-center bg-gradient-to-l from-[#0E0E10] to-[#17171A3B]"
+          >
+            <img
+              src="progressive.png"
+              alt="progressive image"
+              class="w-16 h-16"
+            />
+            <h1 class="text-base text-[#E6E6E6] font-bold lg:text-lg">
+              progressive web apps
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+              doloribus modi, maxime dolor aliquam, recusandae culpa facilis
+              magnam. Enim.
+            </p>
+          </div>
+          <div
+            class="col-span-6 md:col-span-4 lg:col-span-3 flex flex-col gap-y-5 items-center bg-gradient-to-l from-[#0E0E10] to-[#17171A3B]"
+          >
+            <img src="ai_image.png" alt="" class="w-16 h-16" />
+            <h1 class="text-base text-[#E6E6E6] font-bold lg:text-lg">
+              AI-Based Development
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+              doloribus modi, maxime dolor aliquam, recusandae culpa facilis
+              magnam. Enim.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="space-y-14">
+        <div class="text-center">
+          <h1 class="text-[#797C86] text-base font-[600] manrope uppercase">recent works</h1>
+          <h1 class="uppercase text-xl lg:text-4xl">my recent works</h1>
+          <p class="text-[#797C86] text-base manrope font-[400] lg:text-lg">
+            As a web developer with four years of experience, I specialize in
+            creating visually appealing and uelser-friendly websites. My
+            experties includes responsive design,
+          </p>
+        </div>
+        <div class="grid grid-cols-12 gap-5">
+          <div class="bg-[#797C86] col-span-12 md:col-span-4 h-52 "></div>
+          <div class="bg-[#797C86] col-span-12 md:col-span-4 h-52"></div>
+          <div class="bg-[#797C86] col-span-12 md:col-span-4 h-52"></div>
+          <div class="bg-[#797C86] col-span-12 md:col-span-4 h-52"></div>
+          <div class="bg-[#797C86] col-span-12 md:col-span-4 h-52"></div>
+          <div class="bg-[#797C86] col-span-12 md:col-span-4 h-52"></div>
+        </div>
+      </section>
+
+      <section class="space-y-14">
+        <div class="text-center">
+          <h1 class="text-[#797C86] text-base font-[600] manrope uppercase">services</h1>
+          <h1 class="uppercase text-xl lg:text-4xl">my other services</h1>
+          <p class="text-[#797C86] text-base manrope font-[400] lg:text-lg">
+            As a web developer with four years of experience, I specialize in
+            creating visually appealing and uelser-friendly websites. My
+            experties includes responsive design.
+          </p>
+        </div>
+        <div class="grid grid-cols-12 gap-x-5 gap-y-10">
+          <div class="text-center col-span-6  md:col-span-4 lg:col-span-3 space-y-5 bg-gradient-to-l from-[#0E0E10] to-[#17171A3B]">
+            <h1 class="text-[#E6E6E6] text-lg font-[700] manrope">website development</h1>
+            <p class="text-[#E6E6E682] text-sm font[400] manrope">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+              voluptate, non perspiciatis commodi qui expedita eveniet sit
+              consequuntur excepturi.
+            </p>
+          </div>
+          <div class="text-center col-span-6 md:col-span-4 lg:col-span-3 space-y-5 bg-gradient-to-l from-[#0E0E10] to-[#17171A3B]">
+            <h1 class="text-[#E6E6E6] text-lg font-[700] manrope">E-Commerce Development</h1>
+            <p class="text-[#E6E6E682] text-sm font[400] manrope">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+              voluptate, non perspiciatis commodi qui expedita eveniet sit
+              consequuntur excepturi.
+            </p>
+          </div>
+          <div class="text-center col-span-6 md:col-span-4 lg:col-span-3 space-y-5 bg-gradient-to-l from-[#0E0E10] to-[#17171A3B]">
+            <h1 class="text-[#E6E6E6] text-lg font-[700] manrope">web app Development</h1>
+            <p class="text-[#E6E6E682] text-sm font[400] manrope">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+              voluptate, non perspiciatis commodi qui expedita eveniet sit
+              consequuntur excepturi.
+            </p>
+          </div>
+          <div class="text-center col-span-6 md:col-span-4 lg:col-span-3 space-y-5 bg-gradient-to-l from-[#0E0E10] to-[#17171A3B]">
+            <h1 class="text-[#E6E6E6] text-lg font-[700] manrope">API Dev. & integration</h1>
+            <p class="text-[#E6E6E682] text-sm font[400] manrope">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+              voluptate, non perspiciatis commodi qui expedita eveniet sit
+              consequuntur excepturi.
+            </p>
+          </div>
+          <div class="text-center col-span-6 md:col-span-4 lg:col-span-3 space-y-5 bg-gradient-to-l from-[#0E0E10] to-[#17171A3B]">
+            <h1 class="text-[#E6E6E6] text-lg font-[700] manrope">Cloud based solutions</h1>
+            <p class="text-[#E6E6E682] text-sm font[400] manrope">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+              voluptate, non perspiciatis commodi qui expedita eveniet sit
+              consequuntur excepturi.
+            </p>
+          </div>
+          <div class="text-center col-span-6 md:col-span-4 lg:col-span-3 space-y-5 bg-gradient-to-l from-[#0E0E10] to-[#17171A3B]">
+            <h1 class="text-[#E6E6E6] text-lg font-[700] manrope">web platform optimization</h1>
+            <p class="text-[#E6E6E682] text-sm font[400] manrope">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+              voluptate, non perspiciatis commodi qui expedita eveniet sit
+              consequuntur excepturi.
+            </p>
+          </div>
+          <div class="text-center col-span-6 md:col-span-4 lg:col-span-3 space-y-5 bg-gradient-to-l from-[#0E0E10] to-[#17171A3B]">
+            <h1 class="text-[#E6E6E6] text-lg font-[700] manrope">(SEO) Services</h1>
+            <p class="text-[#E6E6E682] text-sm font[400] manrope">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+              voluptate, non perspiciatis commodi qui expedita eveniet sit
+              consequuntur excepturi.
+            </p>
+          </div>
+          <div class="text-center col-span-6 md:col-span-4 lg:col-span-3 space-y-5 bg-gradient-to-l from-[#0E0E10] to-[#17171A3B]">
+            <h1 class="text-[#E6E6E6] text-lg font-[700] manrope">Website maint. & Support</h1>
+            <p class="text-[#E6E6E682] text-sm font[400] manrope">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+              voluptate, non perspiciatis commodi qui expedita eveniet sit
+              consequuntur excepturi.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="space-y-5 uppercase text-[#AFB0B6] mx-auto">
+        <div class="space-y-10">
+          <h1 class="text-lg text-[#797C86]">Faqs</h1>
+          <h1 class="text-lg text-white font-extrabold uppercase lg:text-4xl">frequently asked questions</h1>
+          <div class="grid grid-cols-12 mx-5">
+            <div class="col-span-8 text-base lg:text-xl">what areasof web development do we focus on?</div>
+            <div class="col-start-10 col-end-12"><img src="up-arrow.png" alt="Arrow"></div>
+          </div>
+          <div class="grid grid-cols-12 mx-5">
+          <div class="col-span-8">
+            <p class="text-[#797C86] font-normal text-sm manrope">
+              As a web developer with four years of experience, I specialize in
+              creating visually appealing and uelser-friendly websites. My
+              experties includes responsive design
+            </p>
+          </div>
+        </div>
+        
+        <div class="grid grid-cols-12 mx-5">
+          <div class="col-span-8 text-base lg:text-xl">
+            how can i schedule a web development consultations with you?
+          </div>
+          <div class="col-start-10 col-end-12">
+            <img src="down-arrow.png" alt="Arrow ">
+          </div>
+            </div>
+        
+        <div class="grid grid-cols-12 mx-5">
+          <div class="col-span-8 text-base lg:text-xl">can i choose a spacufic platform for my website?</div>
+          <div class="col-start-10 col-end-12">
+          <img src="down-arrow.png" alt="Arrow">
+          </div>
+        </div>
+        
+        <div class="grid grid-cols-12 mx-5">
+          <div class="col-span-8 text-base lg:text-xl">
+            what tools and technologies do i use for web development?
+          </div>
+          <div class="col-start-10 col-end-12">
+            <img src="down-arrow.png" alt="Arrow">
+          </div>
+        </div>
+        
+        <div class="grid grid-cols-12 mx-5">
+          <div class="col-span-8 text-base lg:text-xl">Can i choose a specific platform for my website?</div>
+          <div class="col-start-10 col-end-12">
+            <img src="down-arrow.png" alt="Arrow">
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="uppercase mt-16 text-center text-lg manrope text-[#F2F2F3] font-medium space-y-16">
+      <div class="grid grid-cols-12 lg:grid-cols-10 gap-y-10 gap-x-5">
+      <ul class="space-y-2 col-span-12 md:col-span-4 lg:col-span-2">
+        <li class="text-[#797C86] font-semibold">solution</li>
+        <li>
+          <a href="#">glintopia</a>
+        </li>
+        <li><a href="#">fluxway</a></li>
+        <li><a href="#">fable's</a></li>
+        <li><a href="#">powercore</a></li>
+      </ul>
+      <ul class="space-y-2 col-span-12 md:col-span-4 lg:col-span-2">
+        <li class="text-[#797C86] font-semibold">customers</li>
+        <li>
+          <a href="#">glintopia</a>
+        </li>
+        <li><a href="#">fluxway</a></li>
+        <li><a href="#">fable's</a></li>
+        <li><a href="#">powercore</a></li>
+      </ul>
+      <ul class="space-y-2 col-span-12 md:col-span-4 lg:col-span-2">
+        <li class="text-[#797C86] font-semibold">partners</li>
+        <li>
+          <a href="#">glintopia</a>
+        </li>
+        <li><a href="#">fluxway</a></li>
+        <li><a href="#">fable's</a></li>
+        <li><a href="#">powercore</a></li>
+      </ul>
+      <ul class="space-y-2 col-span-12 md:col-span-4 lg:col-span-2">
+        <li class="text-[#797C86] font-semibold">stakeholders</li>
+        <li>
+          <a href="#">glintopia</a>
+        </li>
+        <li><a href="#">fluxway</a></li>
+        <li><a href="#">fable's</a></li>
+        <li><a href="#">powercore</a></li>
+      </ul>
+      <ul class="space-y-2 col-span-12 md:col-span-4 lg:col-span-2">
+        <li class="text-[#797C86] font-semibold">offerings</li>
+        <li><a href="#">vision</a></li>
+        <li><a href="#">gatherings</a></li>
+        <li><a href="#">bizsphere</a></li>
+      </ul>
+      </div>
+      <hr>
+      <section class="capitalize text-base text-[#797C86] space-y-5 md:flex justify-between items-center">
+        <p class="space-x-5">
+          <a href="#">terms & condition</a> | <a href="#">privacy policy</a>
+        </p>
+        <p>&copy;2024 all rights reserved.</p>
+      </section>
+    </footer>
+  </body>
+</html>
