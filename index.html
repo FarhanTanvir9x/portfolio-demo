@@ -34,27 +34,18 @@
         font-style: normal;
       }
       
-.parent:hover ul.hidden {
+ .parent:hover ul.hidden {
   display: block;
-}
+} 
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body class="bg-black text-white m-6 md:m-24">
     <header>
       <nav class="flex justify-between items-center">
         <h1 class="text-2xl cursor-pointer">LOGO</h1>
-        <ul class="parent flex flex-col content-end items-end md:hidden"><svg class="relative"
-          viewBox="0 0 48 48"
-          xmlns="http://www.w3.org/2000/svg"
-          height="1.5em"
-          width="1.5em"
-          class="block cursor-pointer lg:hidden"
-        >
-          <path
-            fill="lime"
-            d="M7.5 36q-.65 0-1.075-.425Q6 35.15 6 34.5q0-.65.425-1.075Q6.85 33 7.5 33h33q.65 0 1.075.425Q42 33.85 42 34.5q0 .65-.425 1.075Q41.15 36 40.5 36Zm0-10.5q-.65 0-1.075-.425Q6 24.65 6 24q0-.65.425-1.075Q6.85 22.5 7.5 22.5h33q.65 0 1.075.425Q42 23.35 42 24q0 .65-.425 1.075-.425.425-1.075.425Zm0-10.5q-.65 0-1.075-.425Q6 14.15 6 13.5q0-.65.425-1.075Q6.85 12 7.5 12h33q.65 0 1.075.425Q42 12.85 42 13.5q0 .65-.425 1.075Q41.15 15 40.5 15Z"
-          /> 
-        </svg>
+        <ul class="parent flex flex-col content-end items-end md:hidden">
+          <i class="fa-solid fa-bars text-[#00ff00ff] text-2xl relative block cursor-pointer lg:hidden" ></i>
         <ul class="child hidden text-sm bg-[#171515] space-y-2 p-3 mt-3 rounded-xl  absolute top-12">
           <li class="hover:bg-[mediumseagreen]  w-full rounded p-1.5"><a href="#">Home</a></li>
           <li class="hover:bg-[mediumseagreen]  w-full rounded p-1.5"><a href="#">About me</a></li>
@@ -65,14 +56,14 @@
         </ul>
         </ul>
         
-        <ul class="hidden md:flex justify-evenly items-center gap-8 text-base font-normal">
+        <ul class="hidden md:flex justify-evenly items-center gap-8 text-base font-normal text-center">
           <li class="hover:bg-[mediumseagreen] p-4
            rounded-xl"><a href="#">Home</a></li>
           <li class="hover:bg-[mediumseagreen] p-4 rounded-xl"><a href="#">About me</a></li>
           <li class="hover:bg-[mediumseagreen] p-4 rounded-xl"><a href="#"> Projects</a></li>
           <li class="hover:bg-[mediumseagreen] p-4 rounded-xl"> <a href="#">Testimonials</a></li>
           <li class="hover:bg-[mediumseagreen] p-4 rounded-xl"><a href="#">Hire me</a></li>
-          <li><a href="cv.png" download="cv.pdf"><button class="bg-[#E6AA32] rounded-full text-black text-base w-40 h-14">Download CV</button></a></li>
+          <li><a href="cv.png" download="cv.pdf"><button class="bg-[#E6AA32] rounded-full text-black text-base w-36 h-14">Download CV</button></a></li>
         </ul>
       </nav>
       <section class="my-10 md:grid
